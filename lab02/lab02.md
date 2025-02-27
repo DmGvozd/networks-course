@@ -62,11 +62,11 @@
 запросы и ответы со стороны сервиса для **всех** его операций.
 
 #### Демонстрация работы
-<img src="images/B1.png" width=500 />
-<img src="images/B2.png" width=500 />
-<img src="images/B3.png" width=500 />
-<img src="images/B4.png" width=500 />
-<img src="images/B5.png" width=500 />
+<img src="images/B1.png" width=800 />
+<img src="images/B2.png" width=800 />
+<img src="images/B3.png" width=800 />
+<img src="images/B4.png" width=800 />
+<img src="images/B5.png" width=800 />
 
 ### Задание В (4 балла)
 Пусть ваш продукт также имеет иконку (небольшую картинку). Формат иконки (картинки) может
@@ -88,9 +88,9 @@
 ```
 
 #### Демонстрация работы
-<img src="images/C1.png" width=500 />
-<img src="images/C2.png" width=500 />
-<img src="images/C3.png" width=500 />
+<img src="images/C1.png" width=800 />
+<img src="images/C2.png" width=800 />
+<img src="images/C3.png" width=800 />
 
 ---
 
