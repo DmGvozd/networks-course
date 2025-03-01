@@ -172,4 +172,10 @@ $S = 2 \sqrt{10X} \ бит$ (так как сегменты не могут бы
 2. Опишите зависимость величины общей задержки от значения $\dfrac{L}{R}$.
 
 #### Решение
-todo
+1. $\dfrac{I \cdot L}{R (1 – I)} + \dfrac{L}{R} = \dfrac{\dfrac{L a}{R} \cdot L}{R (1 – \dfrac{L a}{R})} + \dfrac{L}{R} = \cdots = \dfrac{1}{\dfrac{R}{L} - a}$
+
+2. Пусть $\dfrac{L}{R} = x$. Тогда:
+
+при $a \to 0$, $\dfrac{1}{1 / x - a} ≈ x$;
+
+при $a \to 1$ и $I \to 1$, $\dfrac{1}{1 / x - a} \to \infty$.
