@@ -86,8 +86,8 @@ _(*) Вы должны заменить стоящий здесь 8888 на но
    <img src="images/wireshark_dns/task_A/2.png" width=800 />
 3. Используя nslookup, найдите веб-сервер, имеющий несколько IP-адресов. Сколько IP-адресов имеет веб-сервер вашего учебного заведения?
    - yandex.ru
-   <img src="images/wireshark_dns/task_A/3.png" width=800 />
    - 1
+   <img src="images/wireshark_dns/task_A/3.png" width=800 />
    <img src="images/wireshark_dns/task_A/4.png" width=800 />
 
 ### Б. DNS-трассировка www.ietf.org (3 балла)
