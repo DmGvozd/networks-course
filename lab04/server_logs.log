@@ -1,0 +1,125 @@
+2025-03-13 14:21:05 - Server started on localhost:8888
+2025-03-13 14:21:14 - 127.0.0.1 - GET http://www.google.com/ - 302 Found
+2025-03-13 14:21:49 - 127.0.0.1 - POST http://www.google.com/ - 405 Method Not Allowed
+2025-03-13 14:21:54 - 127.0.0.1 - GET http://www.google.com/ - 400 Bad Request
+2025-03-13 14:22:24 - 127.0.0.1 - GET http://www.google.com/ - 400 Bad Request
+2025-03-13 14:22:29 - 127.0.0.1 - GET http://www.google.com/ - 302 Found
+2025-03-13 14:22:39 - 127.0.0.1 - GET http://www.google.com/ - 400 Bad Request
+2025-03-13 14:22:41 - 127.0.0.1 - GET http://www.google.com/ - 200 OK
+2025-03-13 14:22:42 - 127.0.0.1 - GET http://www.google.com/ - 200 OK
+2025-03-13 14:22:59 - 127.0.0.1 - POST http://www.google.com/ - 405 Method Not Allowed
+2025-03-13 14:23:09 - 127.0.0.1 - POST http://www.google.com/ - 405 Method Not Allowed
+2025-03-13 14:23:09 - 127.0.0.1 - POST http://www.google.com/ - 405 Method Not Allowed
+2025-03-13 14:26:03 - Server shutting down
+2025-03-13 14:26:24 - Server started on localhost:8888
+2025-03-13 14:26:25 - Server shutting down
+2025-03-13 14:38:00 - Server started on localhost:8888
+2025-03-13 14:38:03 - Server shutting down
+2025-03-13 17:10:07 - Server started on localhost:8888
+2025-03-13 17:11:36 - 127.0.0.1 - GET http://www.google.com/ - 302 Found
+2025-03-13 17:12:10 - 127.0.0.1 - GET http://www.google.com/ - 302 Found
+2025-03-13 17:12:54 - 127.0.0.1 - GET http://www.example.com/ - 200 OK
+2025-03-13 17:13:27 - 127.0.0.1 - GET http://www.google.com/ - 200 OK
+2025-03-13 17:13:36 - 127.0.0.1 - POST http://www.google.com/ - 405 Method Not Allowed
+2025-03-13 17:14:35 - 127.0.0.1 - GET http://www.example.com/ - 200 OK
+2025-03-13 17:14:38 - 127.0.0.1 - GET http://www.error.com/ - 200 OK
+2025-03-13 17:14:45 - 127.0.0.1 - GET http://www.error.com/ - 200 OK
+2025-03-13 17:14:49 - 127.0.0.1 - GET http://www.error.com/ - 200 OK
+2025-03-13 17:14:51 - 127.0.0.1 - GET http://www.error/ - 502 Bad Gateway
+2025-03-13 17:14:51 - 127.0.0.1 - GET http://www.error/ - 502 Bad Gateway
+2025-03-13 17:15:03 - 127.0.0.1 - GET http://DmitryGvozd.com/ - 502 Bad Gateway
+2025-03-13 17:15:03 - 127.0.0.1 - GET http://DmitryGvozd.com/ - 502 Bad Gateway
+2025-03-13 17:15:11 - 127.0.0.1 - GET http://apple-touch-icon.png/ - 502 Bad Gateway
+2025-03-13 17:15:11 - 127.0.0.1 - GET http://apple-touch-icon.png/ - 502 Bad Gateway
+2025-03-13 17:15:11 - 127.0.0.1 - GET http://apple-touch-icon-precomposed.png/ - 502 Bad Gateway
+2025-03-13 17:15:11 - 127.0.0.1 - GET http://apple-touch-icon-precomposed.png/ - 502 Bad Gateway
+2025-03-13 17:15:11 - 127.0.0.1 - GET http://favicon.ico/ - 502 Bad Gateway
+2025-03-13 17:15:11 - 127.0.0.1 - GET http://favicon.ico/ - 502 Bad Gateway
+2025-03-13 17:15:16 - 127.0.0.1 - GET http://DmitryGvozd.com/ - 502 Bad Gateway
+2025-03-13 17:15:16 - 127.0.0.1 - GET http://DmitryGvozd.com/ - 502 Bad Gateway
+2025-03-13 17:16:13 - Server shutting down
+2025-03-13 17:18:09 - Server started on localhost:8888
+2025-03-13 17:18:19 - 127.0.0.1 - GET http://DmitryGvozd.com/ - 502 Bad Gateway
+2025-03-13 17:18:19 - 127.0.0.1 - GET http://DmitryGvozd.com/ - 502 Bad Gateway
+2025-03-13 17:20:30 - Server shutting down
+2025-03-13 18:05:31 - Server started on localhost:8888
+2025-03-13 18:05:46 - 127.0.0.1 - GET http://www.google.com/ - 302 Found
+2025-03-13 18:05:51 - 127.0.0.1 - GET http://www.google.com/ - 302 Found
+2025-03-13 18:05:58 - 127.0.0.1 - GET http://www.google.com/ - 200 OK
+2025-03-13 18:06:03 - 127.0.0.1 - GET http://www.google.com/ - 200 OK
+2025-03-13 18:06:24 - Server shutting down
+2025-03-13 18:45:16 - Server started on localhost:8888
+2025-03-13 18:45:27 - 127.0.0.1 - GET http://www.google.com/ - 302 Found
+2025-03-13 18:45:27 - 127.0.0.1 - GET http://www.google.com/ - 302 Found
+2025-03-13 18:45:53 - 127.0.0.1 - GET http://www.example.com/ - 200 OK
+2025-03-13 18:45:58 - 127.0.0.1 - GET http://www.example.com/ - 304 Not Modified
+2025-03-13 18:46:00 - 127.0.0.1 - GET http://www.example.com/ - 304 Not Modified
+2025-03-13 18:46:16 - 127.0.0.1 - GET http://www.example.com/ - 200 OK
+2025-03-13 18:46:43 - 127.0.0.1 - GET http://www.example.com/ - 304 Not Modified
+2025-03-13 18:47:12 - Server shutting down
+2025-03-13 18:59:43 - Server started on localhost:8888
+2025-03-13 18:59:50 - 127.0.0.1 - GET http://www.example.com/ - 304 Not Modified
+2025-03-13 19:00:03 - 127.0.0.1 - GET http://www.example.com/ - 304 Not Modified
+2025-03-13 19:00:08 - 127.0.0.1 - GET http://www.example.%D0%BA%D0%B3/ - 502 Bad Gateway
+2025-03-13 19:00:10 - 127.0.0.1 - GET http://www.example.com/ - 304 Not Modified
+2025-03-13 19:00:36 - 127.0.0.1 - POST http://www.example.com/ - 403 Forbidden
+2025-03-13 19:00:58 - 127.0.0.1 - GET http://www.example.com/ - 200 OK
+2025-03-13 19:01:14 - 127.0.0.1 - GET http://www.example.com/ - 304 Not Modified
+2025-03-13 19:01:24 - 127.0.0.1 - GET http://www.example.com/ - 304 Not Modified
+2025-03-13 19:01:27 - 127.0.0.1 - GET http://www.example.com/ - 304 Not Modified
+2025-03-13 19:04:56 - 127.0.0.1 - GET http://www.example.com/ - 304 Not Modified
+2025-03-13 19:04:57 - 127.0.0.1 - GET http://apple-touch-icon-precomposed.png/ - 502 Bad Gateway
+2025-03-13 19:04:57 - 127.0.0.1 - GET http://apple-touch-icon.png/ - 502 Bad Gateway
+2025-03-13 19:05:19 - 127.0.0.1 - GET http://www.example.com/ - 304 Not Modified
+2025-03-13 19:05:19 - 127.0.0.1 - GET http://favicon.ico/ - 502 Bad Gateway
+2025-03-13 19:05:23 - 127.0.0.1 - GET http://www.example.com/ - 304 Not Modified
+2025-03-13 19:05:36 - Server shutting down
+2025-03-13 19:08:51 - Server started on localhost:8888
+2025-03-13 19:09:09 - 127.0.0.1 - GET http://www.example.com/ - 200 OK
+2025-03-13 19:09:24 - 127.0.0.1 - GET http://www.example.com/ - 304 Not Modified
+2025-03-13 19:11:01 - Server shutting down
+2025-03-13 19:18:53 - Server started on localhost:8888
+2025-03-13 19:19:00 - 127.0.0.1 - GET http://www.google.com/ - 403 Forbidden
+2025-03-13 19:19:01 - 127.0.0.1 - GET http://www.google.com/ - 403 Forbidden
+2025-03-13 19:19:37 - Server shutting down
+2025-03-13 19:20:02 - Server started on localhost:8888
+2025-03-13 19:20:10 - 127.0.0.1 - GET http://www.google.com/ - 403 Forbidden
+2025-03-13 19:20:15 - Server shutting down
+2025-03-13 19:27:46 - Server started on localhost:8888
+2025-03-13 19:27:51 - 127.0.0.1 - GET http://apple-touch-icon-precomposed.png/ - 502 Bad Gateway
+2025-03-13 19:27:51 - 127.0.0.1 - GET http://apple-touch-icon.png/ - 502 Bad Gateway
+2025-03-13 19:27:51 - 127.0.0.1 - GET http://favicon.ico/ - 502 Bad Gateway
+2025-03-13 19:27:52 - 127.0.0.1 - GET http://www.google.com/ - 403 Forbidden
+2025-03-13 19:31:22 - Server shutting down
+2025-03-13 19:31:24 - Server started on localhost:8888
+2025-03-13 19:31:27 - 127.0.0.1 - GET http://apple-touch-icon-precomposed.png/ - 502 Bad Gateway
+2025-03-13 19:31:27 - 127.0.0.1 - GET http://favicon.ico/ - 502 Bad Gateway
+2025-03-13 19:31:27 - 127.0.0.1 - GET http://apple-touch-icon.png/ - 502 Bad Gateway
+2025-03-13 19:31:34 - 127.0.0.1 - GET http://www.google.com/ - 403 Forbidden
+2025-03-13 19:34:51 - Server shutting down
+2025-03-13 19:34:52 - Server started on localhost:8888
+2025-03-13 19:34:58 - 127.0.0.1 - GET http://www.google.com/ - 403 Forbidden
+2025-03-13 19:39:05 - Server shutting down
+2025-03-13 19:58:13 - Server started on localhost:8888
+2025-03-13 19:58:17 - 127.0.0.1 - GET http://apple-touch-icon-precomposed.png/ - 502 Bad Gateway
+2025-03-13 19:58:17 - 127.0.0.1 - GET http://favicon.ico/ - 502 Bad Gateway
+2025-03-13 19:58:17 - 127.0.0.1 - GET http://apple-touch-icon.png/ - 502 Bad Gateway
+2025-03-13 19:58:17 - 127.0.0.1 - GET http://www.example.com/ - 403 Forbidden
+2025-03-13 19:58:26 - 127.0.0.1 - GET http://www.google.com/ - 403 Forbidden
+2025-03-13 19:58:32 - 127.0.0.1 - GET http://www.error.com/ - 200 OK
+2025-03-13 19:58:36 - Server shutting down
+2025-03-13 19:59:23 - Server started on localhost:8888
+2025-03-13 19:59:33 - 127.0.0.1 - GET http://www.example.com/ - 403 Forbidden
+2025-03-13 19:59:49 - 127.0.0.1 - GET http://apple-touch-icon-precomposed.png/ - 502 Bad Gateway
+2025-03-13 19:59:49 - 127.0.0.1 - GET http://favicon.ico/ - 502 Bad Gateway
+2025-03-13 19:59:49 - 127.0.0.1 - GET http://apple-touch-icon.png/ - 502 Bad Gateway
+2025-03-13 20:00:03 - 127.0.0.1 - GET http://www.example.com/ - 403 Forbidden
+2025-03-13 20:01:10 - Server shutting down
+2025-03-13 20:03:16 - Server started on localhost:8888
+2025-03-13 20:03:23 - 127.0.0.1 - GET http://www.google.com/ - 403 Forbidden
+2025-03-13 20:03:27 - Server shutting down
+2025-03-13 20:03:45 - Error binding to localhost:8888 - [Errno 48] Address already in use
+2025-03-13 20:03:48 - Error binding to localhost:8888 - [Errno 48] Address already in use
+2025-03-13 20:03:54 - Server started on localhost:8880
+2025-03-13 20:04:01 - 127.0.0.1 - GET http://www.google.com/ - 302 Found
+2025-03-13 20:04:05 - Server shutting down
