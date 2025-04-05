@@ -239,4 +239,4 @@ todo
 более $98$ процентов?
 
 #### Решение
-$ n > \frac{0.98 \cdot R \cdot RTT}{L} = \frac{0.98 \cdot 10^9 \cdot 30 \cdot 10^{-3}}{1500 \cdot 8} = \frac{0.98 \cdot 3 \cdot 10^7}{1.2 \cdot 10^4} = \frac{2.94 \cdot 10^7}{1.2 \cdot 10^4} = 2.45 \cdot 10^3 \approx 2451 $
+$n > \frac{0.98 \cdot R \cdot RTT}{L} = \frac{0.98 \cdot 10^9 \cdot 30 \cdot 10^{-3}}{1500 \cdot 8} = \frac{0.98 \cdot 3 \cdot 10^7}{1.2 \cdot 10^4} = \frac{2.94 \cdot 10^7}{1.2 \cdot 10^4} = 2.45 \cdot 10^3 \approx 2451$
