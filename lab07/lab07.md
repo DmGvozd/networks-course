@@ -162,6 +162,7 @@ Time-Sequence-Graph (Stevens) (Статистика => График TCP пото
 <img src="images/codetasks/4.png" width=800 />
 
 По примеру ping:
+
 <img src="images/codetasks/ping_example.png" width=800 />
 
 ### Г. UDP Heartbeat (4 балла)
