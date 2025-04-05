@@ -43,6 +43,7 @@
    - Sequence Number (raw): 694105781
    - Acknowledgment Number: 1    (relative ack number)
    - Acknowledgment number (raw): 3979945826
+   - AckNum = SeqNum + 1 (сервер прибавил к Sequence Number единицу)
    - По флагам SYN и ACK, в поле Info в квадратных скобках.
    <img src="images/wireshark/4.png" width=800 />
 5. Какой порядковый номер у TCP-сегмента, содержащего команду POST протокола HTTP?
