@@ -137,7 +137,7 @@ Windows) или UDP-сегмент (в случае с Unix).
 
 #### Демонстрация работы
 - Все пункты реализовал в файле ping.py
-- Для запуска: sudo python3 ping.py <host>
+- Для запуска: sudo python3 ping.py -hostname-
 - За основу взял коды из предыдущих лаб
 <img src="images/code/1.png" width=800 />
 
