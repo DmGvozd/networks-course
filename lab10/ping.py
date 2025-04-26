@@ -131,18 +131,25 @@ def ping(host, count=4, timeout=1):
                     if icmp_type is None:
                         print(f"Received malformed packet for seq={sequence}")
                         continue
-                    if icmp_type == ICMP_ECHO_REPLY and resp_id == pid and resp_seq == sequence:
-                        rtt = (recv_time - send_time) * 1000
-                        rtts.append(rtt)
-                        packets_received += 1
-                        min_rtt = min(rtts)
-                        avg_rtt = statistics.mean(rtts)
-                        max_rtt = max(rtts)
-                        if len(rtts) > 1:
-                            stdev = statistics.stdev(rtts)
-                            print(f"Reply from {addr[0]}: seq={sequence} time={rtt:.2f} ms (min/avg/max/mdev = {min_rtt:.2f}/{avg_rtt:.2f}/{max_rtt:.2f}/{stdev:.2f} ms)")
+                    if icmp_type == ICMP_ECHO_REPLY:
+                        if resp_id != pid:
+                            print(f"Ignoring ICMP Echo Reply: mismatched id (expected {pid}, got {resp_id}) for seq={sequence}")
+                            continue
+                        elif resp_seq != sequence:
+                            print(f"Ignoring ICMP Echo Reply: mismatched sequence (expected {sequence}, got {resp_seq})")
+                            continue
                         else:
-                            print(f"Reply from {addr[0]}: seq={sequence} time={rtt:.2f} ms (min/avg/max = {min_rtt:.2f}/{avg_rtt:.2f}/{max_rtt:.2f} ms)")
+                            rtt = (recv_time - send_time) * 1000
+                            rtts.append(rtt)
+                            packets_received += 1
+                            min_rtt = min(rtts)
+                            avg_rtt = statistics.mean(rtts)
+                            max_rtt = max(rtts)
+                            if len(rtts) > 1:
+                                stdev = statistics.stdev(rtts)
+                                print(f"Reply from {addr[0]}: seq={sequence} time={rtt:.2f} ms (min/avg/max/mdev = {min_rtt:.2f}/{avg_rtt:.2f}/{max_rtt:.2f}/{stdev:.2f} ms)")
+                            else:
+                                print(f"Reply from {addr[0]}: seq={sequence} time={rtt:.2f} ms (min/avg/max = {min_rtt:.2f}/{avg_rtt:.2f}/{max_rtt:.2f} ms)")
                     elif icmp_type == ICMP_DEST_UNREACH:
                         msg = ICMP_UNREACH_CODES.get(code, f"Unknown code {code}")
                         print(f"Destination unreachable ({msg}) for seq={sequence}")
