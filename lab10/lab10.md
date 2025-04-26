@@ -138,8 +138,8 @@ Windows) или UDP-сегмент (в случае с Unix).
 #### Демонстрация работы
 - Все пункты реализовал в файле ping.py
 - Для запуска: 
-```console
-$ sudo python3 ping.py <host> [count]
+```
+sudo python3 ping.py <host> [count]
 ```
 - За основу взял коды из предыдущих лаб
 <img src="images/code/1.png" width=800 />
