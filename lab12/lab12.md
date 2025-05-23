@@ -27,7 +27,8 @@ Final state of router 198.71.243.61 table:
 Приведите скрин или лог работы программы.
 
 #### Демонстрация работы
-todo
+<img src="images/1.png" width=800 />
+<img src="images/2.png" width=800 />
 
 ### Задание Б (1 балл)
 Выведите на консоль промежуточные этапы работы протокола: по каждому маршрутизатору
@@ -70,7 +71,10 @@ UDP, а также выводит количество потерянных па
 <img src="images/tcp.png" width=700 />
 
 #### Демонстрация работы
-todo
+<div style="display: flex; flex-direction: row;">
+    <img src="images/3.png" width=400 />
+    <img src="images/4.png" width=400 />
+</div>
 
 ### 2. Измерение по протоколу UDP (3 балла)
 Пример интерфейса:
@@ -78,7 +82,10 @@ todo
 <img src="images/udp.png" width=700 />
 
 #### Демонстрация работы
-todo
+<div style="display: flex; flex-direction: row;">
+    <img src="images/5.png" width=400 />
+    <img src="images/6.png" width=400 />
+</div>
    
 
 ## Транслятор портов (6 баллов)
