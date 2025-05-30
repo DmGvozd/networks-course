@@ -22,7 +22,7 @@ class NetworkScannerApp:
 
         input_frame = ttk.Frame(root)
         input_frame.pack(pady=5)
-        ttk.Label(input_frame, text="IP-сеть (например, 192.168.3.0):").pack(side='left')
+        ttk.Label(input_frame, text="Маска (например, 192.168.3.0):").pack(side='left')
         self.network_entry = ttk.Entry(input_frame)
         self.network_entry.insert(0, "192.168.3.0")
         self.network_entry.pack(side='left', padx=5)
